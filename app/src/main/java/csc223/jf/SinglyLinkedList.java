@@ -169,22 +169,24 @@ public class SinglyLinkedList implements LinkedList{
     // Creates and returns a String representation of the list
     // e.g. `A -> B -> C -> D` should return "ABCD";
     public String toString(){
-        StringBuilder items = new StringBuilder();
+        //StringBuilder items = new StringBuilder();
+        String strNodes = new String();
         if (this.isEmpty()){
             return "[]";
         }
-        items.append("[");
+        //items.append("[");
         Node currNode = this.head.next;
         while (currNode != null){
-            items.append(currNode.data);
-            
-            if (currNode.next != null){
-                items.append("->");
-            }
+            strNodes += currNode.data + "->";
             currNode = currNode.next;
 
+            //items.append(currNode.data);
+            
+            //if (currNode.next != null){
+            //    items.append("->");
+            }
+            strNodes += currNode.data;
+            return strNodes;
         }
-        items.append("]");
-        return items.toString();
+        
     }
-}
