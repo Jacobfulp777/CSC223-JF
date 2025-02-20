@@ -11,7 +11,7 @@ public class DoublyLinkedListTest {
 
 
     @BeforeEach
-    public void setup() {
+    void setup() {
         testList = new DoublyLinkedList();
         
     }
@@ -110,10 +110,10 @@ public class DoublyLinkedListTest {
     // Creates and returns a String representation of the list
     // e.g. `A -> B -> C -> D` should return "ABCD"
     public void toStringTest(){
-        String testString = "[a->b->c]";
+        String testString = "a->b->c";
         testList.insert('a');
         testList.insert('b');
         testList.insert('c');
-        assertEquals(testList, testList.toString());
+        assertEquals(testString, testList.toString());
     }
 }
