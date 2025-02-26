@@ -1,0 +1,61 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WordGuess",
+            "request": "launch",
+            "mainClass": "csc223.jf.WordGuess",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToe",
+            "request": "launch",
+            "mainClass": "csc223.jf.TicTacToe",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "DNA",
+            "request": "launch",
+            "mainClass": "csc223.jf.DNA",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "ArrayQueue",
+            "request": "launch",
+            "mainClass": "csc223.jf.ArrayQueue",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "csc223.jf.App",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "csc223.jf.Game",
+            "projectName": "app"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch Java App"
+        },
+        {
+            "name": "Launch Java: Continuous Mode",
+            "type": "jdk",
+            "request": "launch",
+            "launchConfiguration": "Continuous Mode"
+        }
+    ]
+}
