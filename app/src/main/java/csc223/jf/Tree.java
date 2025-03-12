@@ -32,7 +32,7 @@ package csc223.jf;
         //*
         //* is "ABDEC"
         //*/
-       String preorder();
+       String preorder(TreeNode currNode);
     
     
        /** Get the inorder traversal of the tree: left -> root -> right
@@ -47,7 +47,7 @@ package csc223.jf;
         *
         * is "DBEAC"
         */
-       String inorder();
+       String inorder(TreeNode currNode);
     
     
        /**
@@ -64,7 +64,7 @@ package csc223.jf;
         *
         * is "DEBCA"
         */
-       String postorder();
+       String postorder(TreeNode currNode);
     
     
        /**
@@ -76,11 +76,11 @@ package csc223.jf;
     
     
        // Check if the tree contains an item
-       boolean search(char item);
+       boolean search(char item, TreeNode currNode);
     
     
        // Get the number of nodes in the tree
-       int size();
+       int size(TreeNode currNode);
     
     
        // Check if the tree is empty
@@ -88,7 +88,7 @@ package csc223.jf;
     
     
        // Get the height of the tree (number of nodes along the longest path from the root node down to the farthest leaf node)
-       int height();
+       int height(TreeNode currNode);
     
      
     }

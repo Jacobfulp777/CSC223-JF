@@ -9,7 +9,7 @@ public class TreeNode {
     public TreeNode(char data){
         this.left = null;
         this.right = null;
-
+        this.data = ' ';
 
 
     }
